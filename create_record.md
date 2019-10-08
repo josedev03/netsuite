@@ -7,6 +7,7 @@ var objRecord = record.create({
     isDynamic: true
 });
 
+// forma de setear un valor al nuevo registro
 objRecord.setValue('custrecord_ifx_design_customer', id_customer);
 objRecord.setValue('custrecord_ifx_design_oppid', id_opportunity);
 objRecord.setValue('custrecord_ifx_desing_estimate_id', id_estimate);
